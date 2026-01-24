@@ -4,8 +4,6 @@
 #include <utility>
 
 #include <driver/gpio.h>
-#include <driver/spi_master.h>
-#include <driver/i2c_master.h>
 
 #include <busHAL.h>
 
