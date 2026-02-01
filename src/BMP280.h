@@ -3,7 +3,11 @@
 #include <cstdint>
 #include <utility>
 
+#include <freertos/FreeRTOS.h>
+#include <freertos/task.h>
+
 #include <driver/gpio.h>
+#include <esp_timer.h>
 
 #include <busHAL.h>
 
