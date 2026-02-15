@@ -82,7 +82,7 @@ namespace YOBA {
 	class BMP280 {
 		public:
 			bool setup(
-				busHAL* bus,
+				BusHAL* bus,
 
 				BMP280Mode mode,
 				BMP280Oversampling pressureOversampling,
@@ -226,7 +226,7 @@ namespace YOBA {
 			int32_t _tFine = -0xFFFF;
 
 			// Bus
-			busHAL* _bus = nullptr;
+			BusHAL* _bus = nullptr;
 
 			// Calibration data
 			uint16_t _calibrationDigT1 = 0;
