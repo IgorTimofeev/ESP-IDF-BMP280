@@ -83,6 +83,9 @@ namespace YOBA {
 
 	class BMP280 {
 		public:
+			constexpr static uint8_t defaultI2CAddress = 0x76;
+			constexpr static uint32_t defaultI2CFrequencyHz = 1'000'000;
+
 			bool setup(
 				BusHAL* bus,
 
