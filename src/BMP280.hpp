@@ -11,7 +11,7 @@
 #include <esp_timer.h>
 #include <esp_log.h>
 
-#include <busHAL.h>
+#include <BusHAL.hpp>
 
 namespace YOBA {
 	enum class BMP280I2CAddress : uint8_t {
